@@ -1,0 +1,95 @@
+package cn.csdb.commons.vo;
+
+import java.util.List;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlTransient;
+
+import org.simpleframework.xml.Attribute;
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.ElementList;
+
+import cn.csdb.commons.xmlbeans.writer.format.XmlProperty;
+
+@XmlAccessorType(XmlAccessType.PROPERTY)
+public class Table
+{
+	@Attribute(name = "abbrChar")
+	private char _abbrChar;
+
+	@Attribute(name = "name")
+	private String _name;
+
+	@Element(name = "Length")
+	private int _length;
+
+	@ElementList(name = "Fields", entry = "Field")
+	private List<Field> _fields;
+
+	private Database _database;
+
+	@XmlAttribute(name = "abbrChar")
+	public char getAbbrChar()
+	{
+		return _abbrChar;
+	}
+
+	@XmlProperty
+	public void setAbbrChar(char abbrChar)
+	{
+		_abbrChar = abbrChar;
+	}
+
+	@XmlAttribute(name = "name")
+	public String getName()
+	{
+		return _name;
+	}
+
+	@XmlProperty
+	public void setName(String name)
+	{
+		_name = name;
+	}
+
+	@XmlElement(name = "Length")
+	public int getLength()
+	{
+		return _length;
+	}
+
+	@XmlProperty
+	public void setLength(int length)
+	{
+		_length = length;
+	}
+
+	@XmlElementWrapper(name = "Fields")
+	@XmlElement(name = "Field")
+	public List<Field> getFields()
+	{
+		return _fields;
+	}
+
+	@XmlProperty
+	public void setFields(List<Field> fields)
+	{
+		_fields = fields;
+	}
+
+	@XmlTransient
+	public Database getDatabase()
+	{
+		return _database;
+	}
+
+	@XmlProperty
+	public void setDatabase(Database database)
+	{
+		_database = database;
+	}
+}

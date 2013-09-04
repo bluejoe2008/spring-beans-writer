@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/vdb2011/!svn/ver/3541/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value
+END
+MapEntityNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/vdb2011/!svn/ver/3541/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/MapEntityNode.java
+END
+EntityNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/vdb2011/!svn/ver/2574/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/EntityNode.java
+END
+ValueNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/vdb2011/!svn/ver/6088/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/ValueNode.java
+END
+BeanEntityNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/vdb2011/!svn/ver/6088/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/BeanEntityNode.java
+END
+BeanRefNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/vdb2011/!svn/ver/2589/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/BeanRefNode.java
+END
+StringValueNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/vdb2011/!svn/ver/2574/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/StringValueNode.java
+END
+AbstractXmlNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/vdb2011/!svn/ver/2574/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/AbstractXmlNode.java
+END
+NullValueNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/vdb2011/!svn/ver/2574/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/NullValueNode.java
+END
+ValueNodeDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/vdb2011/!svn/ver/3541/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/ValueNodeDelegate.java
+END
+ListEntityNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/vdb2011/!svn/ver/2574/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/value/ListEntityNode.java
+END

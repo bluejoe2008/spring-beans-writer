@@ -1,0 +1,11 @@
+package cn.csdb.commons.xmlbeans.node.creator;
+
+import cn.csdb.commons.xmlbeans.node.value.ValueNodeDelegate;
+
+public class ValueNodeDelegateCreator
+{
+	public ValueNodeDelegate createValueNode()
+	{
+		return new ValueNodeDelegate();
+	}
+}

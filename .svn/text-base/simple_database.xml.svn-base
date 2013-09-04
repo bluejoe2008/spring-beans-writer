@@ -1,0 +1,36 @@
+<database id="1" name="cms">
+   <CreateTime>2011-11-08 14:22:13.940 CST</CreateTime>
+   <Owner>cnic</Owner>
+   <Tables class="java.util.ArrayList">
+      <Table abbrChar="T" name="teachers">
+         <Length>800</Length>
+         <Fields class="java.util.ArrayList">
+            <Field id="1">
+               <Length>40</Length>
+               <DefaultValue></DefaultValue>
+               <NullValue>false</NullValue>
+            </Field>
+            <Field id="2">
+               <Length>1000</Length>
+               <DefaultValue></DefaultValue>
+               <NullValue>true</NullValue>
+            </Field>
+         </Fields>
+      </Table>
+      <Table abbrChar="S" name="students">
+         <Length>1000</Length>
+         <Fields class="java.util.ArrayList">
+            <Field id="1">
+               <Length>40</Length>
+               <DefaultValue></DefaultValue>
+               <NullValue>false</NullValue>
+            </Field>
+            <Field id="1">
+               <Length>10</Length>
+               <DefaultValue>男</DefaultValue>
+               <NullValue>false</NullValue>
+            </Field>
+         </Fields>
+      </Table>
+   </Tables>
+</database>

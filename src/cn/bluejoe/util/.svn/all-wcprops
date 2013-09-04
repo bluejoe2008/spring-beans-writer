@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/vdb2011/!svn/ver/3580/xmlbeans/trunk/src/cn/csdb/commons/util
+END
+InvalidGetterMethodException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/vdb2011/!svn/ver/6088/xmlbeans/trunk/src/cn/csdb/commons/util/InvalidGetterMethodException.java
+END
+Matcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/vdb2011/!svn/ver/3525/xmlbeans/trunk/src/cn/csdb/commons/util/Matcher.java
+END
+InvalidFieldException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/vdb2011/!svn/ver/6088/xmlbeans/trunk/src/cn/csdb/commons/util/InvalidFieldException.java
+END

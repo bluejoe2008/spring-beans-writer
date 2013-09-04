@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/vdb2011/!svn/ver/3565/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/creator
+END
+MapEntityNodeCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/vdb2011/!svn/ver/6090/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/creator/MapEntityNodeCreator.java
+END
+EntityNodeCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/vdb2011/!svn/ver/6090/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/creator/EntityNodeCreator.java
+END
+BeanEntityNodeCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/vdb2011/!svn/ver/6090/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/creator/BeanEntityNodeCreator.java
+END
+BeanRefNodeCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/vdb2011/!svn/ver/2574/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/creator/BeanRefNodeCreator.java
+END
+StringValueNodeCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/vdb2011/!svn/ver/2574/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/creator/StringValueNodeCreator.java
+END
+NullValueNodeCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/vdb2011/!svn/ver/2574/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/creator/NullValueNodeCreator.java
+END
+ValueNodeDelegateCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/vdb2011/!svn/ver/3541/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/creator/ValueNodeDelegateCreator.java
+END
+ListEntityNodeCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/vdb2011/!svn/ver/6090/xmlbeans/trunk/src/cn/csdb/commons/xmlbeans/node/creator/ListEntityNodeCreator.java
+END

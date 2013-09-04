@@ -1,0 +1,62 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+		http://www.springframework.org/schema/util
+		http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+	<bean id="database" class="cn.bluejoe.vo.Database">
+		<property name="createTime">
+			<bean class="java.util.Date"/>
+		</property>
+		<property name="id" value="1"/>
+		<property name="name" value="cms"/>
+		<property name="owner" ref="bean0"/>
+		<property name="tables">
+			<list>
+				<bean class="cn.bluejoe.vo.Table">
+					<property name="abbrChar" value="T"/>
+					<property name="database" ref="database"/>
+					<property name="fields">
+						<list>
+							<bean class="cn.bluejoe.vo.Field">
+								<property name="defaultValue" value=""/>
+								<property name="id" value="1"/>
+								<property name="length" value="40"/>
+								<property name="nullable" value="false"/>
+							</bean>
+							<bean class="cn.bluejoe.vo.Field">
+								<property name="defaultValue" value=""/>
+								<property name="id" value="2"/>
+								<property name="length" value="1000"/>
+								<property name="nullable" value="true"/>
+							</bean>
+						</list>
+					</property>
+					<property name="length" value="800"/>
+					<property name="name" value="teachers"/>
+				</bean>
+				<bean class="cn.bluejoe.vo.Table">
+					<property name="abbrChar" value="S"/>
+					<property name="database" ref="database"/>
+					<property name="fields">
+						<list>
+							<bean class="cn.bluejoe.vo.Field">
+								<property name="defaultValue" value=""/>
+								<property name="id" value="1"/>
+								<property name="length" value="40"/>
+								<property name="nullable" value="false"/>
+							</bean>
+							<bean class="cn.bluejoe.vo.Field">
+								<property name="defaultValue" value="男"/>
+								<property name="id" value="1"/>
+								<property name="length" value="10"/>
+								<property name="nullable" value="false"/>
+							</bean>
+						</list>
+					</property>
+					<property name="length" value="1000"/>
+					<property name="name" value="students"/>
+				</bean>
+			</list>
+		</property>
+	</bean>
+</beans>

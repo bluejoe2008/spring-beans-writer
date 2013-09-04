@@ -1,0 +1,47 @@
+<database id="1">
+  <__name>cms</__name>
+  <createTime>2011-11-08 07:42:59.781 UTC</createTime>
+  <__owner>cnic</__owner>
+  <__tables>
+    <table>
+      <__abbrChar>T</__abbrChar>
+      <__name>teachers</__name>
+      <__length>800</__length>
+      <__fields>
+        <field>
+          <__id>1</__id>
+          <__length>40</__length>
+          <__defaultValue></__defaultValue>
+          <__nullValue>false</__nullValue>
+        </field>
+        <field>
+          <__id>2</__id>
+          <__length>1000</__length>
+          <__defaultValue></__defaultValue>
+          <__nullValue>true</__nullValue>
+        </field>
+      </__fields>
+      <__database reference="../../.."/>
+    </table>
+    <table>
+      <__abbrChar>S</__abbrChar>
+      <__name>students</__name>
+      <__length>1000</__length>
+      <__fields>
+        <field>
+          <__id>1</__id>
+          <__length>40</__length>
+          <__defaultValue></__defaultValue>
+          <__nullValue>false</__nullValue>
+        </field>
+        <field>
+          <__id>1</__id>
+          <__length>10</__length>
+          <__defaultValue>男</__defaultValue>
+          <__nullValue>false</__nullValue>
+        </field>
+      </__fields>
+      <__database reference="../../.."/>
+    </table>
+  </__tables>
+</database>

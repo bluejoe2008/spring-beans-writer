@@ -1,0 +1,14 @@
+package cn.csdb.commons.xmlbeans.node.creator;
+
+import cn.csdb.commons.xmlbeans.node.value.StringValueNode;
+import cn.csdb.commons.xmlbeans.writer.NodeCreatorContext;
+
+public class StringValueNodeCreator
+{
+	public StringValueNode createValueNode(Object value, NodeCreatorContext ctx)
+	{
+		StringValueNode node = new StringValueNode();
+		node.setValue(value.toString());
+		return node;
+	}
+}

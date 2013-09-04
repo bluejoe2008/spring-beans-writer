@@ -1,0 +1,13 @@
+package cn.csdb.commons.xmlbeans.node.creator;
+
+import cn.csdb.commons.xmlbeans.node.value.NullValueNode;
+import cn.csdb.commons.xmlbeans.writer.NodeCreatorContext;
+
+public class NullValueNodeCreator
+{
+	public NullValueNode createValueNode(NodeCreatorContext ctx)
+	{
+		NullValueNode node = new NullValueNode();
+		return node;
+	}
+}

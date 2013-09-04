@@ -1,0 +1,101 @@
+package cn.csdb.commons.vo;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
+
+import org.simpleframework.xml.Attribute;
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.ElementList;
+import org.simpleframework.xml.Root;
+
+import cn.csdb.commons.xmlbeans.writer.format.XmlProperty;
+
+@XmlAccessorType(XmlAccessType.PROPERTY)
+@XmlRootElement
+@Root
+public class Database
+{
+
+	@Attribute(name = "id")
+	private int _id;
+
+	@Attribute(name = "name")
+	private String _name;
+
+	@Element(name = "CreateTime")
+	private Date _createTime;
+
+	@Element(name = "Owner")
+	private String _owner;
+
+	@ElementList(name = "Tables", entry = "Table")
+	private List<Table> _tables;
+
+	@XmlAttribute(name = "id")
+	public int getId()
+	{
+		return _id;
+	}
+
+	@XmlProperty
+	public void setId(int id)
+	{
+		_id = id;
+	}
+
+	@XmlAttribute(name = "name")
+	public String getName()
+	{
+		return _name;
+	}
+
+	@XmlProperty
+	public void setName(String name)
+	{
+		_name = name;
+	}
+
+	@XmlElement(name = "CreateTime")
+	public Date getCreateTime()
+	{
+		return _createTime;
+	}
+
+	@XmlProperty
+	public void setCreateTime(Date createTime)
+	{
+		_createTime = createTime;
+	}
+
+	@XmlElement(name = "Owner")
+	public String getOwner()
+	{
+		return _owner;
+	}
+
+	@XmlProperty
+	public void setOwner(String owner)
+	{
+		_owner = owner;
+	}
+
+	@XmlElementWrapper(name = "Tables")
+	@XmlElement(name = "Table")
+	public List<Table> getTables()
+	{
+		return _tables;
+	}
+
+	@XmlProperty
+	public void setTables(List<Table> tables)
+	{
+		_tables = tables;
+	}
+}
