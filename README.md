@@ -47,4 +47,4 @@ you can let spring-beans-writer write all JavaBean properties:
 	
 that is ALL!
 
-finally, thanks to suxianming@cnic.cn, how have even worked on the project with me.
+finally, thanks to suxianming@cnic.cn, who have even worked on the project with me.
