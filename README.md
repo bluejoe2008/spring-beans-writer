@@ -17,7 +17,7 @@ example codes:
 		sbw.write(beans, outputs);
 
 
-you can let spring-beans-writer to save beans into multiple files:
+you can let spring-beans-writer save beans into multiple files:
 
 		List<FilteredOutput> outputs = new ArrayList<FilteredOutput>();
 		//write tables into a spring_persons.xml
@@ -32,3 +32,19 @@ you can let spring-beans-writer to save beans into multiple files:
 
 		outputs.add(new SimpleFilteredOutput(new File("spring_databases.xml")));
 		sbw.write(beans, outputs);
+		
+on default, only annotated properties of a JavaBean will be written into output files. To annotate a JavaBean property, use '@XmlProperty':
+
+	@XmlProperty
+	public void setName(String name)
+	{
+		_name = name;
+	}
+	
+you can let spring-beans-writer write all JavaBean properties:
+
+	SpringBeansWriter sbw = new SpringBeansWriter(new DumpAllProperties());
+	
+that is ALL!
+
+finally, thanks to suxianming@cnic.cn, how have even worked on the project with me.
