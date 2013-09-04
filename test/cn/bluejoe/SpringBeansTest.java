@@ -17,6 +17,7 @@ import cn.bluejoe.xmlbeans.node.value.EntityNode;
 import cn.bluejoe.xmlbeans.writer.FilteredOutput;
 import cn.bluejoe.xmlbeans.writer.SimpleFilteredOutput;
 import cn.bluejoe.xmlbeans.writer.SpringBeansWriter;
+import cn.bluejoe.xmlbeans.writer.strategy.DumpAllProperties;
 
 public class SpringBeansTest extends BaseTest
 {
@@ -49,10 +50,10 @@ public class SpringBeansTest extends BaseTest
 		beans.addBean(_database, "database");
 		beans.addBeans(_persons);
 
-		SpringBeansWriter sbw = new SpringBeansWriter();
+		SpringBeansWriter sbw = new SpringBeansWriter(new DumpAllProperties());
 
 		List<FilteredOutput> outputs = new ArrayList<FilteredOutput>();
-		//write tables into a table.xml
+		//write tables into a spring_persons.xml
 		outputs.add(new SimpleFilteredOutput(new Matcher<EntityNode<?>>()
 		{
 			@Override
