@@ -4,6 +4,9 @@ import java.util.List;
 
 import cn.bluejoe.xmlbeans.node.value.ValueNodeDelegate;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 public class BeanNodesNotWritten extends Exception
 {
 	private static final long serialVersionUID = 6699072065284790625L;

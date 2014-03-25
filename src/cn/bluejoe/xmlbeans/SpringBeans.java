@@ -5,6 +5,10 @@ import java.util.IdentityHashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
+
 public class SpringBeans
 {
 	private Map<Object, String> _beans = new IdentityHashMap<Object, String>();

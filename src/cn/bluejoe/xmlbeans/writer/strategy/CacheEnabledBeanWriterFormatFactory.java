@@ -8,6 +8,10 @@ import java.util.Map;
 
 import org.apache.commons.beanutils.PropertyUtils;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
+
 public abstract class CacheEnabledBeanWriterFormatFactory implements BeanPropertySelectionStrategy
 {
 	Map<Class<?>, PropertyDescriptor[]> _beanWriterFormats = new HashMap<Class<?>, PropertyDescriptor[]>();

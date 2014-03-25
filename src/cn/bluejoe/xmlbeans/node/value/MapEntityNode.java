@@ -8,6 +8,9 @@ import org.dom4j.Element;
 import org.dom4j.Namespace;
 import org.dom4j.QName;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 public class MapEntityNode extends AbstractXmlNode implements ValueNode, EntityNode<Map<?, ?>>
 {
 	String _nodeId;

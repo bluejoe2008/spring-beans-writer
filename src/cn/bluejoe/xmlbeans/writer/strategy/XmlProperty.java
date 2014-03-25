@@ -1,5 +1,9 @@
 package cn.bluejoe.xmlbeans.writer.strategy;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
+
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

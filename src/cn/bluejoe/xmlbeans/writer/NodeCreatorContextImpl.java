@@ -6,6 +6,9 @@ import cn.bluejoe.xmlbeans.node.XmlSerializableNode;
 import cn.bluejoe.xmlbeans.node.value.ValueNode;
 import cn.bluejoe.xmlbeans.writer.strategy.NoSuitableBeanWritterFormatException;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 public class NodeCreatorContextImpl implements NodeCreatorContext
 {
 	public BeansWriterContext _beansWriterContext;
@@ -31,7 +34,6 @@ public class NodeCreatorContextImpl implements NodeCreatorContext
 		return _beansWriterContext.getBeanPropertySelection(bean);
 	}
 
-	@Override
 	public boolean isWriteNullValue()
 	{
 		return false;

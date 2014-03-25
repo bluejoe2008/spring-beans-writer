@@ -6,13 +6,13 @@
 	<bean id="database" class="cn.bluejoe.vo.Database">
 		<property name="createTime">
 			<bean class="java.util.Date">
-				<property name="date" value="4"/>
-				<property name="hours" value="14"/>
-				<property name="minutes" value="29"/>
-				<property name="month" value="8"/>
-				<property name="seconds" value="32"/>
-				<property name="time" value="1378319372105"/>
-				<property name="year" value="113"/>
+				<property name="date" value="25"/>
+				<property name="hours" value="15"/>
+				<property name="minutes" value="20"/>
+				<property name="month" value="2"/>
+				<property name="seconds" value="18"/>
+				<property name="time" value="1395732018905"/>
+				<property name="year" value="114"/>
 			</bean>
 		</property>
 		<property name="id" value="1"/>

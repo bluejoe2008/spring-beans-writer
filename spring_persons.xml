@@ -3,14 +3,14 @@
 		http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
 		http://www.springframework.org/schema/util
 		http://www.springframework.org/schema/util/spring-util-2.0.xsd">
-	<bean id="bean0" class="cn.bluejoe.vo.Person">
-		<property name="age" value="35"/>
-		<property name="gender" value="true"/>
-		<property name="name" value="bluejoe"/>
-	</bean>
 	<bean class="cn.bluejoe.vo.Person">
 		<property name="age" value="30"/>
 		<property name="gender" value="true"/>
 		<property name="name" value="suxianming"/>
+	</bean>
+	<bean id="bean0" class="cn.bluejoe.vo.Person">
+		<property name="age" value="35"/>
+		<property name="gender" value="true"/>
+		<property name="name" value="bluejoe"/>
 	</bean>
 </beans>

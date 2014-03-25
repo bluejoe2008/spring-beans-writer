@@ -2,6 +2,9 @@ package cn.bluejoe.xmlbeans.node.value;
 
 import org.dom4j.Element;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 public class BeanRefNode extends AbstractXmlNode implements ValueNode
 {
 	String _nodeId;

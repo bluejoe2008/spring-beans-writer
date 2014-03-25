@@ -8,6 +8,10 @@ import cn.bluejoe.xmlbeans.node.value.StringValueNode;
 import cn.bluejoe.xmlbeans.node.value.ValueNode;
 import cn.bluejoe.xmlbeans.node.value.ValueNodeDelegate;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
+
 public class PropertyNode extends AbstractXmlNode implements XmlSerializableNode
 {
 	String _name;

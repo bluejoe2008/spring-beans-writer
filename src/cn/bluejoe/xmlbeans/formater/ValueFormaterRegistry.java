@@ -3,6 +3,10 @@ package cn.bluejoe.xmlbeans.formater;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
+
 public class ValueFormaterRegistry implements ValueFormaterFactory
 {
 	private Map<Class<?>, ValueFormater> _map = new HashMap<Class<?>, ValueFormater>();

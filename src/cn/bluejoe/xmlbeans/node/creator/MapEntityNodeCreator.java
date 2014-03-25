@@ -9,6 +9,9 @@ import cn.bluejoe.xmlbeans.node.value.ValueNode;
 import cn.bluejoe.xmlbeans.writer.NodeCreatorContext;
 import cn.bluejoe.xmlbeans.writer.strategy.NoSuitableBeanWritterFormatException;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 public class MapEntityNodeCreator implements EntityNodeCreator<Map<?, ?>>
 {
 	public EntityNode<Map<?, ?>> createEntityNode(Map<?, ?> value, String nodeId, NodeCreatorContext ctx)

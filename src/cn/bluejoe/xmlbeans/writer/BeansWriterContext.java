@@ -28,9 +28,7 @@ import cn.bluejoe.xmlbeans.writer.strategy.BeanPropertySelectionStrategy;
 import cn.bluejoe.xmlbeans.writer.strategy.NoSuitableBeanWritterFormatException;
 
 /**
- * 
- * @author bluejoe
- * 
+ * @author bluejoe2008@gmail.com
  */
 public class BeansWriterContext
 {

@@ -9,6 +9,9 @@ import cn.bluejoe.xmlbeans.node.value.BeanEntityNode;
 import cn.bluejoe.xmlbeans.writer.NodeCreatorContext;
 import cn.bluejoe.xmlbeans.writer.strategy.NoSuitableBeanWritterFormatException;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 @SuppressWarnings("rawtypes")
 public class BeanEntityNodeCreator implements EntityNodeCreator
 {

@@ -6,6 +6,9 @@ import cn.bluejoe.xmlbeans.node.XmlSerializableNode;
 import cn.bluejoe.xmlbeans.node.value.ValueNode;
 import cn.bluejoe.xmlbeans.writer.strategy.NoSuitableBeanWritterFormatException;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 public interface NodeCreatorContext
 {
 	void addTopBeanNode(Object bean) throws NoSuitableBeanWritterFormatException;

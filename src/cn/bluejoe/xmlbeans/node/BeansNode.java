@@ -10,6 +10,10 @@ import org.dom4j.QName;
 import cn.bluejoe.xmlbeans.node.value.AbstractXmlNode;
 import cn.bluejoe.xmlbeans.node.value.ValueNodeDelegate;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
+
 public class BeansNode extends AbstractXmlNode implements XmlSerializableNode
 {
 	List<ValueNodeDelegate> _beanValueNodes = new ArrayList<ValueNodeDelegate>();

@@ -1,5 +1,8 @@
 package cn.bluejoe.xmlbeans.node.value;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 public interface EntityNode<T> extends ValueNode
 {
 	public String getNodeId();

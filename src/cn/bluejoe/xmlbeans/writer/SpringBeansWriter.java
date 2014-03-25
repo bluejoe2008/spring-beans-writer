@@ -22,10 +22,7 @@ import cn.bluejoe.xmlbeans.writer.strategy.DumpAnnotatedProperties;
 import cn.bluejoe.xmlbeans.writer.strategy.NoSuitableBeanWritterFormatException;
 
 /**
- * Spring Bean写入工具
- * 
- * @author SuXianMing
- * @version 1.0.0 , 2011-8-12
+ * @author bluejoe2008@gmail.com
  */
 public class SpringBeansWriter
 {

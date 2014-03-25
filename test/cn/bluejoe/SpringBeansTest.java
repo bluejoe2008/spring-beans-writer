@@ -56,7 +56,6 @@ public class SpringBeansTest extends BaseTest
 		//write tables into a spring_persons.xml
 		outputs.add(new SimpleFilteredOutput(new Matcher<EntityNode<?>>()
 		{
-			@Override
 			public boolean matches(EntityNode<?> x)
 			{
 				return x.getValue().getClass() == Person.class;

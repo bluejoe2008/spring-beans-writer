@@ -1,6 +1,0 @@
-package cn.csdb.commons.xmlbeans.formater;
-
-public interface ValueFormater
-{
-	String getAsText(Object rawValue);
-}

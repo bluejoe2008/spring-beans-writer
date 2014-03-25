@@ -8,6 +8,9 @@ import org.dom4j.Element;
 import cn.bluejoe.xmlbeans.node.PropertyNode;
 import cn.bluejoe.xmlbeans.node.XmlSerializableNode;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 public class BeanEntityNode extends AbstractXmlNode implements XmlSerializableNode, ValueNode, EntityNode<Object>
 {
 	String _className;

@@ -8,6 +8,9 @@ import cn.bluejoe.xmlbeans.node.value.ValueNode;
 import cn.bluejoe.xmlbeans.writer.NodeCreatorContext;
 import cn.bluejoe.xmlbeans.writer.strategy.NoSuitableBeanWritterFormatException;
 
+/**
+ * @author bluejoe2008@gmail.com
+ */
 public class ListEntityNodeCreator implements EntityNodeCreator<List<?>>
 {
 	public EntityNode<List<?>> createEntityNode(List<?> value, String nodeId, NodeCreatorContext ctx)
