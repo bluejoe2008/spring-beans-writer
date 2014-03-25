@@ -3,7 +3,9 @@ spring-beans-writer
 
 writer for spring IOC beans files
 
-it is too easy to use, please see the test classes.
+it is too easy to use, please see the test case:
+
+https://github.com/bluejoe2008/spring-beans-writer/blob/master/test/cn/bluejoe/SpringBeansTest.java
 
 example codes:
 
@@ -45,6 +47,6 @@ you can let spring-beans-writer write all JavaBean properties:
 
 	SpringBeansWriter sbw = new SpringBeansWriter(new DumpAllProperties());
 	
-that is ALL!
-
-finally, thanks to suxianming@gmail.com, the guy who have ever worked on the project with me.
+acknowledges
+======
+thanks to suxianming@gmail.com, the guy who have ever worked on the project with me.
