@@ -47,6 +47,5 @@ you can let spring-beans-writer write all JavaBean properties:
 
 	SpringBeansWriter sbw = new SpringBeansWriter(new DumpAllProperties());
 	
-acknowledgements
-======
+###acknowledgements
 thanks to suxianming@gmail.com, the guy who have ever worked on the project with me.
