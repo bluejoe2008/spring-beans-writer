@@ -3,7 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.bluejoe2008</groupId>
 	<artifactId>spring-beans-writer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.9</version>
+	<name>spring-beans-writer</name>
 	<description>writer for spring beans xml files</description>
 	<url>https://github.com/bluejoe2008/spring-beans-writer</url>
 	<licenses>
@@ -25,16 +26,6 @@
 		<tag>HEAD</tag>
 	</scm>
 	<packaging>jar</packaging>
-	<repositories>
-		<repository>
-			<id>apache.snapshots</id>
-			<name>Apache Snapshot Repository</name>
-			<url>http://repository.apache.org/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</repository>
-	</repositories>
 	<properties>
 		<springframework.version>3.0.6.RELEASE</springframework.version>
 	</properties>
@@ -44,7 +35,14 @@
 			<artifactId>commons-beanutils-core</artifactId>
 			<version>1.8.3</version>
 		</dependency>
-<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.0</version>
+		    <scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
