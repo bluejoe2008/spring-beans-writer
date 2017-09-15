@@ -24,6 +24,7 @@
 		<url>https://github.com/bluejoe2008/spring-beans-writer.git</url>
 		<tag>HEAD</tag>
 	</scm>
+	<packaging>jar</packaging>
 	<repositories>
 		<repository>
 			<id>apache.snapshots</id>
