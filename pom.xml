@@ -1,10 +1,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>jena-blob</groupId>
-	<artifactId>jena-blob</artifactId>
+	<groupId>com.github.bluejoe2008</groupId>
+	<artifactId>spring-beans-writer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	<description>writer for spring beans xml files</description>
+	<url>https://github.com/bluejoe2008/spring-beans-writer</url>
+	<licenses>
+		<license>
+			<name>BSD 2-clause License</name>
+			<url>http://opensource.org/licenses/BSD-2-Clause</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>shenzhihong</name>
+			<email>bluejoe2008@gmail.com</email>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git@github.com:bluejoe2008/spring-beans-writer.git</connection>
+		<developerConnection>scm:git:git@github.com:bluejoe2008/spring-beans-writer.git</developerConnection>
+		<url>https://github.com/bluejoe2008/spring-beans-writer.git</url>
+		<tag>HEAD</tag>
+	</scm>
 	<repositories>
 		<repository>
 			<id>apache.snapshots</id>
@@ -23,11 +42,11 @@
 			<artifactId>commons-beanutils-core</artifactId>
 			<version>1.8.3</version>
 		</dependency>
-
+<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
-			<version>1.2-SNAPSHOT</version>
+			<version>1.1.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.directory.studio</groupId>
