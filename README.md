@@ -9,6 +9,16 @@ it is too easy to use, please see the test case:
 
 https://github.com/bluejoe2008/spring-beans-writer/blob/master/test/cn/bluejoe/SpringBeansTest.java
 
+import spring-beans-writer:
+
+	<!-- https://mvnrepository.com/artifact/com.github.bluejoe2008/spring-beans-writer -->
+	<dependency>
+	    <groupId>com.github.bluejoe2008</groupId>
+	    <artifactId>spring-beans-writer</artifactId>
+	    <version>0.9</version>
+	</dependency>
+
+
 example codes:
 
 		SpringBeans beans = new SpringBeans();
@@ -21,7 +31,7 @@ example codes:
 		sbw.write(beans, outputs);
 
 
-you can let spring-beans-writer save beans into multiple files:
+you can require spring-beans-writer save beans into multiple files:
 
 		List<FilteredOutput> outputs = new ArrayList<FilteredOutput>();
 		//write tables into a spring_persons.xml
