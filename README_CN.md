@@ -1,4 +1,4 @@
-English Version：https://github.com/bluejoe2008/spring-beans-writer/blob/master/README_CN.md
+English Version：https://gitee.com/bluejoe2008/spring-beans-writer/blob/master/README.md
 
 spring-beans-writer
 ===================
@@ -7,7 +7,7 @@ writer for spring IOC beans files
 
 it is too easy to use, please see the test case:
 
-https://github.com/bluejoe2008/spring-beans-writer/blob/master/test/cn/bluejoe/SpringBeansTest.java
+https://gitee.com/bluejoe2008/spring-beans-writer/blob/master/test/cn/bluejoe/SpringBeansTest.java
 
 example codes:
 
@@ -37,7 +37,7 @@ you can let spring-beans-writer save beans into multiple files:
 		outputs.add(new SimpleFilteredOutput(new File("spring_databases.xml")));
 		sbw.write(beans, outputs);
 		
-on default, only annotated properties of a JavaBean will be written into output files. To annotate a JavaBean property, use '@XmlProperty':
+by default, only annotated properties of a JavaBean will be written into output files. To annotate a JavaBean property, use '@XmlProperty':
 
 	@XmlProperty
 	public void setName(String name)
