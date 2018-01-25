@@ -1,5 +1,3 @@
-中文版：https://github.com/bluejoe2008/spring-beans-writer/blob/master/README_CN.md
-
 spring-beans-writer
 ===================
 
